@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDEMServicePrototype", "IDEMServicePrototype\IDEMServicePrototype.csproj", "{467C57EC-3393-4AEA-9518-59D792081360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{49B927CE-72DD-411C-87CF-54AF584D035B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{BBF03221-618C-48B0-885E-F9972D0BBE65}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Libraries\Business.dll = SolutionItems\Libraries\Business.dll
+		SolutionItems\Libraries\Core.dll = SolutionItems\Libraries\Core.dll
+		SolutionItems\Libraries\Data.dll = SolutionItems\Libraries\Data.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QT2K.IDEM.DataModel", "QT2K.IDEM.DataModel\QT2K.IDEM.DataModel.csproj", "{164410E8-A9BA-4F6E-954C-467675AA6AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{467C57EC-3393-4AEA-9518-59D792081360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467C57EC-3393-4AEA-9518-59D792081360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467C57EC-3393-4AEA-9518-59D792081360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467C57EC-3393-4AEA-9518-59D792081360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164410E8-A9BA-4F6E-954C-467675AA6AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164410E8-A9BA-4F6E-954C-467675AA6AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164410E8-A9BA-4F6E-954C-467675AA6AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164410E8-A9BA-4F6E-954C-467675AA6AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBF03221-618C-48B0-885E-F9972D0BBE65} = {49B927CE-72DD-411C-87CF-54AF584D035B}
+	EndGlobalSection
+EndGlobal
